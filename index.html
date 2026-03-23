@@ -174,10 +174,15 @@
 </ul>
     
     <div class="footer">
-   <p>
-  Visitors:<br>
-  <img src="https://www.cutercounter.com/hits.php?id=hegxaqo&nd=6&style=odometer" alt="visitor counter">
-</p>
+<p>Visitors: <span id="view-count">...</span></p>
+
+<script>
+fetch('https://api.countapi.xyz/hit/derekneal/homepage')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('view-count').innerText = res.value;
+  });
+</script>
         <p>Last updated March 2026</p>
     </div>
 </body>
