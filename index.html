@@ -3,111 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Articles</title>
+    <title>Articles</title>
     <style>
         body {
-            background-color: #fff8e1;
+            background-color: #f5f5f5;
             color: #333;
-            font-family: Arial, sans-serif;
+            font-family: Georgia, serif;
             margin: 0;
-            padding: 20px;
+            padding: 40px 20px;
         }
         
         .container {
-            max-width: 700px;
+            max-width: 600px;
             margin: 0 auto;
-            background-color: #fffacd;
-            border: 5px dashed #ff69b4;
-            padding: 30px;
-            box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
         }
         
         h1 {
-            color: #ff1493;
-            font-size: 48px;
-            margin: 0;
-            text-shadow: 2px 2px 0px #ffa500;
-            font-family: 'Comic Sans MS', cursive;
-            transform: rotate(-2deg);
+            font-size: 32px;
+            font-weight: normal;
+            margin: 0 0 40px 0;
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+            letter-spacing: 2px;
         }
         
-        .subtitle {
-            color: #ff8c00;
-            font-size: 16px;
-            font-style: italic;
-            margin: 5px 0 20px 0;
-        }
-        
-        hr {
-            border: none;
-            border-top: 3px dotted #ff69b4;
-            margin: 20px 0;
-        }
-        
-        .article-list {
+        ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         
-        .article-list li {
-            margin: 15px 0;
-            background-color: #fff;
-            border: 3px solid #00bfff;
-            padding: 12px;
-            transform: rotate(1deg);
-        }
-        
-        .article-list li:nth-child(even) {
-            transform: rotate(-1.5deg);
-            border-color: #ff69b4;
+        li {
+            margin: 20px 0;
+            line-height: 1.6;
         }
         
         a {
-            color: #0066cc;
-            text-decoration: underline wavy;
-            font-weight: bold;
-            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
         }
         
         a:hover {
-            color: #ff1493;
-            text-decoration: underline;
+            background-color: #fff;
         }
         
         .footer {
-            text-align: center;
-            margin-top: 30px;
+            margin-top: 60px;
             font-size: 12px;
             color: #666;
-            font-style: italic;
-        }
-        
-        .decoration {
-            text-align: center;
-            font-size: 24px;
-            margin: 10px 0;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="decoration">✦ ✦ ✦</div>
-        <h1>MY ARTICLES</h1>
-        <p class="subtitle">~ a collection of my writing ~</p>
-        <hr>
+        <h1>Articles</h1>
         
-        <ul class="article-list">
+        <ul>
             <li><a href="https://example.com/article1">Article Title 1</a></li>
             <li><a href="https://example.com/article2">Article Title 2</a></li>
             <li><a href="https://example.com/article3">Article Title 3</a></li>
             <li><a href="https://example.com/article4">Article Title 4</a></li>
         </ul>
         
-        <hr>
-        <div class="decoration">✦ ✦ ✦</div>
-        
         <div class="footer">
-            <p>made with ♡ • last updated march 2026</p>
+            <p>Last updated March 2026</p>
         </div>
     </div>
 </body>
