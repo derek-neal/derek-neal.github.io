@@ -244,5 +244,13 @@ fetch('https://api.countapi.xyz/hit/derekneal/homepage')
 </script>
         <p>Last updated March 2026</p>
     </div>
+<script id="ext-links">
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  if (!link.href.includes(window.location.hostname)) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  }
+});
+</script>
 </body>
 </html>
