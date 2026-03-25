@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Derek Neal</title>
+    <title>Derek Neal — Sportswriting</title>
     <style>
         body {
             background-color: #ffffff;
@@ -22,90 +22,72 @@
             padding-bottom: 15px;
         }
         
-        h2, h3 {
-    margin-top: 40px;
-}
+        h2 {
+            margin-top: 40px;
+        }
         
         ul {
             list-style: none;
             padding: 0;
-            margin: 0;
         }
-    
-        li p {
-            font-size: 15px;
-        }
-        
+
         a {
             color: #0000ff;
+        }
+
+        .nav {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .nav a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
             text-decoration: underline;
         }
-        
-        a:visited {
-            color: #800080;
-        }
-        p {
-        margin-left: 20px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        }
-        
-        .footer {
-            margin-top: 50px;
-            font-size: 11px;
-            color: #333333;
-            border-top: 1px solid #000000;
-            padding-top: 15px;
-        }
-          #view-count {
-        font-family: monospace;
-        letter-spacing: 3px;
-        border: 1px solid black;
-        padding: 2px 6px;
-        display: inline-block;
-        }
-        
-        .nav {
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000;
-    font-size: 15px;
-            position: sticky;
-    top: 0;
-    background: #ffffff;
-    z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.nav a {
-    text-decoration: none;
-    margin-right: 10px;
-    color: #0000ff;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-        h2 {
-    scroll-margin-top: 80px;
-}
     </style>
 </head>
 <body>
+
+<h1>Derek Neal</h1>
+
+<div class="nav">
+    <a href="index.html">Selected Work</a>
+    <a href="literature.html">Literary Criticism</a>
+    <a href="film.html">Film Criticism</a> 
+    <a href="sports.html">Sportswriting</a>
+    <a href="fiction.html">Fiction</a> 
+    <a href="other.html">Other Essays</a>
+</div>
+
 <h2>Sportswriting</h2>
-    <ul>
-<li><a href="https://therepublicofletters.substack.com/p/how-to-read-about-sports/">How to Read about Sports</a> &mdash; The Republic of Letters, February 2026
-        <p>A sportswriting manifesto</p></li>
-         <li><a href="https://derekneal.substack.com/p/emergency-stack-canada-v-usa-for">EMERGENCY 'STACK: CANADA v USA FOR GOLD</a> — Derek Neal's Newsletter, February 2026
-        <p>On Olympic Ice Hockey</p></li>
-      <li><a href="https://derekneal.substack.com/p/notes-from-the-presidential-debate">Notes from the Presidential Debate</a> — Derek Neal's Newsletter, July 2024
-        <p>On golf</p></li>
-  <li><a href="https://3quarksdaily.com/3quarksdaily/2023/08/a-bunch-of-strangers-trying-to-put-a-ball-in-a-hole-or-pickup-basketball.html">A Bunch of Strangers Trying to Put a Ball in a Hole, or Pickup Basketball</a> &mdash; 3 Quarks Daily, August 2023
-  <p>On pickup basketball</p></li>
-  <li><a href="https://3quarksdaily.com/3quarksdaily/2023/05/im-him.html">I’m Him!</a> &mdash; 3 Quarks Daily, May 2023
-        <p>On the NBA Playoffs</p></li>
-        <li><a href="https://3quarksdaily.com/3quarksdaily/2023/01/a-sense-of-where-you-are-lionel-messi-at-the-world-cup.html">A Sense of Where You Are: Lionel Messi at the World Cup</a> — 3 Quarks Daily, January 2023
-        <p>On Lionel Messi</p></li>
-      <li><a href="https://3quarksdaily.com/3quarksdaily/2022/11/the-end-of-an-era-on-roger-federers-retirement.html">The End of an Era: On Roger Federer’s Retirement</a> — 3 Quarks Daily, November 2022
-      <p>On Roger Federer</p></li>
+
+<ul>
+<li><a href="https://therepublicofletters.substack.com/p/how-to-read-about-sports/">How to Read about Sports</a> — The Republic of Letters, February 2026
+    <p>A sportswriting manifesto</p></li>
+
+<li><a href="https://derekneal.substack.com/p/emergency-stack-canada-v-usa-for">EMERGENCY 'STACK: CANADA v USA FOR GOLD</a> — Derek Neal's Newsletter, February 2026
+    <p>On Olympic Ice Hockey</p></li>
+
+<li><a href="https://derekneal.substack.com/p/notes-from-the-presidential-debate">Notes from the Presidential Debate</a> — Derek Neal's Newsletter, July 2024
+    <p>On golf</p></li>
+
+<li><a href="https://3quarksdaily.com/3quarksdaily/2023/08/a-bunch-of-strangers-trying-to-put-a-ball-in-a-hole-or-pickup-basketball.html">A Bunch of Strangers Trying to Put a Ball in a Hole, or Pickup Basketball</a> — 3 Quarks Daily, August 2023
+    <p>On pickup basketball</p></li>
+
+<li><a href="https://3quarksdaily.com/3quarksdaily/2023/05/im-him.html">I’m Him!</a> — 3 Quarks Daily, May 2023
+    <p>On the NBA Playoffs</p></li>
+
+<li><a href="https://3quarksdaily.com/3quarksdaily/2023/01/a-sense-of-where-you-are-lionel-messi-at-the-world-cup.html">A Sense of Where You Are: Lionel Messi at the World Cup</a> — 3 Quarks Daily, January 2023
+    <p>On Lionel Messi</p></li>
+
+<li><a href="https://3quarksdaily.com/3quarksdaily/2022/11/the-end-of-an-era-on-roger-federers-retirement.html">The End of an Era: On Roger Federer’s Retirement</a> — 3 Quarks Daily, November 2022
+    <p>On Roger Federer</p></li>
 </ul>
+
+</body>
+</html>
