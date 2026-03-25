@@ -92,6 +92,16 @@
     </style>
 </head>
 <body>
+<h1>Derek Neal</h1>
+
+<div class="nav">
+    <a href="selected.html">Selected Work</a>
+    <a href="literature.html">Literary Criticism</a>
+    <a href="film.html">Film Criticism</a> 
+    <a href="sports.html">Sportswriting</a>
+    <a href="fiction.html">Fiction</a> 
+    <a href="other.html">Other Essays</a>
+</div>
 <h2>Literary Criticism</h2>
     <ul>
         <li><a href="https://3quarksdaily.com/3quarksdaily/2026/03/another-horned-man-on-michael-clunes-pan.html">Another Horned Man</a> &mdash; 3 Quarks Daily, March 2026
@@ -272,3 +282,5 @@
   <p>On <i>Metal Gear Solid V</i></p>
         </li>
 </ul>
+</body>
+</html>
