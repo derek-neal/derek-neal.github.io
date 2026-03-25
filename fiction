@@ -1,3 +1,12 @@
+<div class="nav">
+    <a href="index.html">Selected Work</a>
+    <a href="literature.html">Literary Criticism</a>
+    <a href="film.html">Film Criticism</a> 
+    <a href="sports.html">Sportswriting</a>
+    <a href="fiction.html">Fiction</a> 
+    <a href="other.html">Other Essays</a>
+</div>
+
 <h2>Fiction</h2>
     <ul>
     <li><a href="https://3quarksdaily.com/3quarksdaily/2026/01/panorama.html">Panorama</a> &mdash; 3 Quarks Daily, January 2026</li>
