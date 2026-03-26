@@ -7,15 +7,17 @@
         /* ------------------------------
            BODY AND LAYOUT
         ------------------------------ */
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            font-family: "Times New Roman", serif;
-            margin: 0;
-            padding: 40px 40px 40px 50px; /* top/right/bottom/left */
-            line-height: 1.6;             /* slightly more airy */
-            max-width: 720px;             /* readable column */
-        }
+      body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    margin: 0;                 /* remove default margin */
+    padding: 40px;             /* uniform padding */
+    max-width: 720px;
+    margin-left: 20px;         /* slight left nudge */
+    margin-right: auto;        /* keeps right side flexible */
+    line-height: 1.6;
+}
 
         .header {
             display: flex;
