@@ -148,6 +148,13 @@ h1 {
 <li><a href="https://3quarksdaily.com/3quarksdaily/2022/11/the-end-of-an-era-on-roger-federers-retirement.html">The End of an Era: On Roger Federer’s Retirement</a> — 3 Quarks Daily, November 2022
     <p>On Roger Federer</p></li>
 </ul>
-
+<script id="ext-links">
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  if (!link.href.includes(window.location.hostname)) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  }
+});
+</script>
 </body>
 </html>
