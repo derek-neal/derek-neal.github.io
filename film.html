@@ -155,5 +155,13 @@ h1 {
   <li><a href="https://3quarksdaily.com/3quarksdaily/2021/09/the-rotten-tomatoes-equation.html">The Rotten Tomatoes Equation</a> — 3 Quarks Daily, September 2021
   <p>On Rotten Tomatoes</p></li>
 </ul>
+    <script id="ext-links">
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  if (!link.href.includes(window.location.hostname)) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  }
+});
+</script>
     </body>
 </html>
