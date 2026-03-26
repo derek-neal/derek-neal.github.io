@@ -130,7 +130,10 @@
 fetch('https://api.countapi.xyz/hit/derekneal/homepage')
   .then(res => res.json())
   .then(res => {
-    document.getElementById('view-count').innerText = res.value;
+    document.getElementById('view-count').innerText = res.value || '—';
+  })
+  .catch(() => {
+    document.getElementById('view-count').innerText = '—';
   });
 </script>
         <p>Last updated March 2026</p>
