@@ -4,126 +4,159 @@
     <meta charset="UTF-8">
     <title>Derek Neal</title>
     <style>
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            font-family: Times New Roman, serif;
-            margin: 0;
-            padding: 40px;
-            line-height: 1.5;
-            max-width: 720px;
-    margin: 0 auto;
-        }
-        .header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-        
-h1 {
-    font-size: 28px;
-    font-weight: normal;
-    margin: 0;
-    padding-bottom: 0;  
-    border-bottom: none; 
+        /* ------------------------------
+           BODY AND LAYOUT
+        ------------------------------ */
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    margin: 0 auto;          /* keep it centered */
+    padding: 40px;
+    max-width: 720px;
+    line-height: 1.6;
+    position: relative;
+    left: -60px;             /* nudges content 20px left */
 }
 
-.subhead {
-    font-size: 14px;
-    margin-left: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #000; 
-}
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;      /* left-align everything */
+        }
+
+        /* ------------------------------
+           HEADINGS
+        ------------------------------ */
+        h1 {
+            font-size: 28px;
+            font-weight: normal;
+            margin: 0 0 10px 0;
+        }
+
+        .subhead {
+            font-size: 14px;
+            margin: 0 0 15px 0;
+            line-height: 1.5;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
         h2, h3 {
-    margin-top: 40px;
-}
-        
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+            margin-top: 50px;
+            margin-bottom: 15px;
         }
-    
-        li p {
+
+        h2 {
+            scroll-margin-top: 80px; /* smooth scrolling offset */
+        }
+
+        /* ------------------------------
+           NAVIGATION
+        ------------------------------ */
+        .nav {
+            margin: 0 0 30px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #000;
             font-size: 15px;
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        
+
+        .nav a {
+            text-decoration: none;
+            margin-right: 15px;
+            color: #0000ff;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ------------------------------
+           LINKS
+        ------------------------------ */
         a {
             color: #0000ff;
             text-decoration: underline;
         }
-        
+
         a:visited {
             color: #800080;
         }
+
+        /* ------------------------------
+           PARAGRAPHS & LISTS
+        ------------------------------ */
         p {
-        margin-left: 20px;
-        margin-top: 5px;
-        margin-bottom: 10px;
+            margin: 5px 0 10px 0;  /* vertical spacing only */
         }
-        
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+
+        li {
+            margin-bottom: 18px;       /* space between list items */
+            line-height: 1.6;          /* more airy multi-line items */
+        }
+
+        li p {
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        /* ------------------------------
+           FOOTER
+        ------------------------------ */
         .footer {
             margin-top: 50px;
             font-size: 11px;
             color: #333333;
-            border-top: 1px solid #000000;
+            border-top: 1px solid #000;
             padding-top: 15px;
         }
-          #view-count {
-        font-family: monospace;
-        letter-spacing: 3px;
-        border: 1px solid black;
-        padding: 2px 6px;
-        display: inline-block;
+
+        #view-count {
+            font-family: monospace;
+            letter-spacing: 3px;
+            border: 1px solid black;
+            padding: 2px 6px;
+            display: inline-block;
         }
-        
-        .nav {
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000;
-    font-size: 15px;
-            position: sticky;
-    top: 0;
-    background: #ffffff;
-    z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-.nav a {
-    text-decoration: none;
-    margin-right: 10px;
-    color: #0000ff;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-        h2 {
-    scroll-margin-top: 80px;
-}
+        /* ------------------------------
+           SMOOTH SCROLL
+        ------------------------------ */
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 <body>
 <div class="header">
   <h1 id="top">Derek Neal</h1>
   <p class="subhead">
-    I'm a writer in Hamilton, Ontario / 
-    email: drock1237 [at] gmail [dot] com /
-    <a href="https://derekneal.substack.com">Substack</a> /
-    <a href="https://x.com/derekcrneal">Twitter</a>
+    I'm a writer in Hamilton, Ontario · 
+    email: drock1237 [at] gmail [dot] com ·
+    <a href="https://derekneal.substack.com" target="_blank" rel="noopener noreferrer">Substack</a> ·
+    <a href="https://x.com/derekcrneal" target="_blank" rel="noopener noreferrer">Twitter</a>
   </p>
 </div>
-    <div class="nav">
-<a href="index.html">Selected Work</a>
+
+<div class="nav">
+    <a href="index.html#top">Selected Work</a>
     <a href="literature.html">Literary Criticism</a>
     <a href="film.html">Film Criticism</a> 
     <a href="sports.html">Sportswriting</a>
     <a href="fiction.html">Fiction</a> 
     <a href="other.html">Other Essays</a>
 </div>
-
 <h2>Sportswriting</h2>
 
 <ul>
