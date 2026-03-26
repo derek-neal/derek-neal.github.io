@@ -14,6 +14,11 @@
             max-width: 720px;
     margin: 0 auto;
         }
+        .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
         
 h1 {
     font-size: 28px;
@@ -25,6 +30,7 @@ h1 {
 
 .subhead {
     font-size: 14px;
+    margin-left: 0;
     margin-top: 5px;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -100,11 +106,13 @@ h1 {
     </style>
 </head>
 <body>
-<h1 id="top">Derek Neal</h1>
-<p class="subhead">
-  <a href="mailto:yourname@email.com">Contact</a> |
-  <a href="https://derekneal.substack.com">Substack</a>
-</p>
+<div class="header">
+  <h1 id="top">Derek Neal</h1>
+  <p class="subhead">
+    <a href="mailto:yourname@email.com">Contact</a> |
+    <a href="https://derekneal.substack.com">Substack</a>
+  </p>
+</div>
     <div class="nav">
 <a href="#selected">Selected Work</a>
     <a href="literature.html">Literary Criticism</a>
