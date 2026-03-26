@@ -136,5 +136,13 @@ h1 {
   <li><a href="https://derekneal.substack.com/p/the-beetle">The Beetle</a> — Derek Neal's Newsletter, September 2023</li>
   <li><a href="https://3quarksdaily.com/3quarksdaily/2022/09/manifest-destiny-or-a-trip-out-west.html">Manifest Destiny; or, a Trip Out West</a> — 3 Quarks, Daily September 2022</li>  
     </ul>
+    <script id="ext-links">
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  if (!link.href.includes(window.location.hostname)) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  }
+});
+</script>
 </body>
 </html>
