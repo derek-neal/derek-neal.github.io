@@ -190,6 +190,8 @@
       .then(res => res.json())
       .then(res => {
         document.getElementById('view-count').innerText = res.value || '—';
+    .then(res => {
+  document.getElementById('view-count').innerText = res.value?.toLocaleString() || '—';
       })
       .catch(() => {
         document.getElementById('view-count').innerText = '—';
